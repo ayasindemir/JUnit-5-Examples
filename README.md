@@ -1,42 +1,42 @@
 <b>@Test</b>
 
-@BeforeAll
+<b>@BeforeAll</b>
 
-@AfterAll
+<b>@AfterAll</b>
 
-@BeforeEach
+<b>@BeforeEach</b>
 
-@AfterEach
+<b>@AfterEach</b>
 
-@Disabled
+<b>@Disabled</b>
 
-@DisplayName
+<b>@DisplayName</b>
 
-@Nested
+<b>@Nested</b>
 
-@Timeout
+<b>@Timeout</b>
 
-@Order
-@TestClassOrder
-@TestMethodOrder
+<b>@Order</b>
+<b>@TestClassOrder</b>
+<b>@TestMethodOrder</b>
 
-@ParameterizedTest
+<b>@ParameterizedTest</b>
 
-@RepeatedTest
+<b>@RepeatedTest</b>
 
-@DisplayNameGeneration
+<b>@DisplayNameGeneration</b>
 
-@Tag
+<b>@Tag</b>
 
-@EnabledOnOs
-@DisabledOnOs
-@EnabledOnJre
-@DisabledOnJre
-@EnabledForJreRange
-@DisabledForJreRange
-@EnabledIfSystemProperty
-@DisabledIfSystemProperty
-@EnabledIfEnvironmentVariable
-@DisabledIfEnvironmentVariable
-@EnabledIf
-@DisabledIf
+<b>@EnabledOnOs</b>
+<b>@DisabledOnOs</b>
+<b>@EnabledOnJre</b>
+<b>@DisabledOnJre</b>
+<b>@EnabledForJreRange</b>
+<b>@DisabledForJreRange</b>
+<b>@EnabledIfSystemProperty</b>
+<b>@DisabledIfSystemProperty</b>
+<b>@EnabledIfEnvironmentVariable</b>
+<b>@DisabledIfEnvironmentVariable</b>
+<b>@EnabledIf</b>
+<b>@DisabledIf</b>
