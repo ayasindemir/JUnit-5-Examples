@@ -1,4 +1,4 @@
-<b>@Test</b></n>
+<b>@Test</b><br>
 
 <b>@BeforeAll</b>
 
@@ -16,9 +16,9 @@
 
 <b>@Timeout</b>
 
-<b>@Order</b></n>
-<b>@TestClassOrder</b></n>
-<b>@TestMethodOrder</b></n>
+<b>@Order</b><br>
+<b>@TestClassOrder</b><br>
+<b>@TestMethodOrder</b><br>
 
 <b>@ParameterizedTest</b>
 
