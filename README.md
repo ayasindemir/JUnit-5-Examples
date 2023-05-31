@@ -23,3 +23,5 @@
 @ParameterizedTest
 
 @RepeatedTest
+
+@DisplayNameGeneration
