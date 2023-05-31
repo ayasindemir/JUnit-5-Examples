@@ -27,3 +27,16 @@
 @DisplayNameGeneration
 
 @Tag
+
+@EnabledOnOs
+@DisabledOnOs
+@EnabledOnJre
+@DisabledOnJre
+@EnabledForJreRange
+@DisabledForJreRange
+@EnabledIfSystemProperty
+@DisabledIfSystemProperty
+@EnabledIfEnvironmentVariable
+@DisabledIfEnvironmentVariable
+@EnabledIf
+@DisabledIf
