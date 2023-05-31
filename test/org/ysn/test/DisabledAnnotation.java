@@ -21,4 +21,10 @@ public class DisabledAnnotation {
 		System.out.println("test3...");
 	}
 
+	@Test
+	@Disabled("Disabled until something will be happened")
+	void test4() {
+		System.out.println("this test method is disabled");
+	}
+
 }
