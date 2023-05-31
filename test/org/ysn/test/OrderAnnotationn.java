@@ -1,14 +1,18 @@
 package org.ysn.test;
 
 import org.junit.jupiter.api.MethodOrderer.OrderAnnotation;
+import org.junit.jupiter.api.ClassOrderer;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.TestClassOrder;
 import org.junit.jupiter.api.TestMethodOrder;
 
+@TestClassOrder(ClassOrderer.OrderAnnotation.class)
 public class OrderAnnotationn {
 
+	@Order(value = 2)
 	@Nested
 	@TestMethodOrder(OrderAnnotation.class)
 	class OrderByAnnotation {
@@ -33,6 +37,7 @@ public class OrderAnnotationn {
 
 	}
 
+	@Order(value = 1)
 	@Nested
 	@TestMethodOrder(MethodOrderer.MethodName.class)
 	class OrderByMethodName {
